@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.pantalla-telefono{
+    display: grid;
+    place-content: end;
+    height: 600px;
+    background-color: white;
+    border: 8px solid #845EC2;
+
+}
+
+
+.teclas{
+    display: grid;
+    place-content: center;
+    width: 400px;
+    height: 300px;
+    background-color: #9B89B3;
+}
+
+.botones1{
+    display: flex;
+    margin-top: 10px;
+    justify-content: start;
+    gap: 20px;
+}
+
+.botones2{
+    display: flex;
+    margin-top: 10px;
+    justify-content: start;
+    gap: 20px;
+}
+
+.botones3{
+    display: flex;
+    margin-top: 10px;
+    justify-content: start;
+    gap: 20px;
+}
+
+.botones1 button{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+.botones2 button{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+.botones3 button{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+.cero{
+    display: flex;
+    margin: 10px 0 0 80px;
+    justify-content: start;
+}
+.cero button{
+    
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+.aceptar button{
+    width: 100px;
+    height: 50px;
+    background-color: #FEFEDF;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+.aceptar :hover{
+
+    background-color: rgb(140, 234, 140);
+    color: black;
+}
+
+.clear button{
+    width: 100px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+.clear :hover{
+    background-color: plum;
+    color: white;
+    
+}
+
+
+.pantalla-numero{
+    width: 100%;
+    height: 285px;
+    border-bottom: #845EC2 6px solid;
+    background-color: #FDF7FF;
+}
